@@ -9,10 +9,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply bg-slate-100
+  @apply bg-custom-white
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.home{
+  @apply text-custom-black
+}
+.links{
+  @apply px-3
+}
+.dropdown{
+  @apply    flex-col items-center
+}
+  /* .options{
+    @apply  hidden  absolute   bg-custom-black
+  }; */
+
+    /* .options{
+      @apply block absolute
+    } */
+ /* .inner-options{
+  @apply absolute
+ }  */
+
