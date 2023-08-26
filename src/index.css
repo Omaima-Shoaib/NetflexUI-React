@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -25,14 +26,27 @@ code {
 .dropdown{
   @apply    flex-col items-center
 }
-  /* .options{
-    @apply  hidden  absolute   bg-custom-black
-  }; */
-
-    /* .options{
-      @apply block absolute
-    } */
- /* .inner-options{
-  @apply absolute
- }  */
-
+.cover-container{
+  @apply w-full h-screen 
+}
+.cover-image{
+  @apply object-cover w-full  h-screen 
+}
+.cover-movie{
+  @apply px-11 
+}
+.movie-container{
+  @apply w-2/4  text-custom-white absolute bottom-24
+}
+.movie-cover-image{
+  @apply w-40 py-2 
+}
+.cover-buttons{
+  @apply  flex  py-2
+}
+.cover-btn-padding{
+  @apply pl-6
+}
+.movies-type-list{
+  @apply bg-custom-white border-none rounded-sm px-2  font-semibold 
+}
